@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <title>VORA | Minimalist Essentials</title>
+  <title>Salvis | Minimalist Essentials</title>
   <!-- Google Fonts & simple reset -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
   <style>
@@ -46,7 +46,7 @@
       gap: 20px;
     }
 
-    /* UNIQUE BRANDING: VORA — minimal contrast mark */
+    /* UNIQUE BRANDING: Salvis — minimal contrast mark */
     .brand {
       display: flex;
       align-items: baseline;
@@ -479,12 +479,12 @@ gtag('config', 'G-NTV0NLN2X5');
 </head>
 <body>
 
-<div id="toast-msg">✨ Added to your VORA bag</div>
+<div id="toast-msg">✨ Added to your Salvis bag</div>
 
 <header class="site-header">
   <div class="container header-inner">
     <a href="#" class="brand">
-      <span class="brand-name">VORA</span>
+      <span class="brand-name">Salvis</span>
       <span class="brand-dot">●</span>
       <span class="brand-tag">silent luxury</span>
     </a>
@@ -507,11 +507,11 @@ gtag('config', 'G-NTV0NLN2X5');
       <div class="hero-content">
         <div class="hero-badge">New Archive Edition</div>
         <h1 class="hero-title">Shape your <span>quiet ritual</span> <br>with timeless pieces</h1>
-        <p class="hero-desc">VORA crafts objects that breathe — where minimalism meets organic warmth. Discover refined essentials made for daily ceremonies.</p>
+        <p class="hero-desc">Salvis crafts objects that breathe — where minimalism meets organic warmth. Discover refined essentials made for daily ceremonies.</p>
         <a href="#" class="btn-primary">Explore collection →</a>
       </div>
       <div class="hero-image">
-        <img src="https://placecats.com/neo/800/600?random=1" alt="VORA hero ceramic and textile decor" style="object-fit:cover; width:100%; height:100%;">
+        <img src="https://placecats.com/neo/800/600?random=1" alt="Salvis hero ceramic and textile decor" style="object-fit:cover; width:100%; height:100%;">
         <!-- note: placecats gives random cat images but we want stylish ecom - will replace with high-quality unsplash-like via loremflick? but using unique solid unsplash placeholder -->
       </div>
     </div>
@@ -530,11 +530,11 @@ gtag('config', 'G-NTV0NLN2X5');
     <div class="philosophy">
       <div class="philosophy-text">
         <h3>Atelier touch,<br>modern soul</h3>
-        <p>Each VORA piece is born from a dialogue between raw material and slow craft. We work with regenerative fibers, recycled metals, and glazes made from earth pigments. Not just objects — companions for a mindful life.</p>
+        <p>Each Salvis piece is born from a dialogue between raw material and slow craft. We work with regenerative fibers, recycled metals, and glazes made from earth pigments. Not just objects — companions for a mindful life.</p>
         <p style="margin-top: 18px;">✦ Ethically made in small batches ✦</p>
       </div>
       <div class="philosophy-img">
-        <img src="https://picsum.photos/id/91/600/500" alt="VORA artisan workspace with natural tones">
+        <img src="https://picsum.photos/id/91/600/500" alt="Salvis artisan workspace with natural tones">
       </div>
     </div>
   </div>
@@ -542,7 +542,7 @@ gtag('config', 'G-NTV0NLN2X5');
   <!-- newsletter & final vibe -->
   <div class="container">
     <div class="newsletter">
-      <h3>In dialogue with VORA</h3>
+      <h3>In dialogue with Salvis</h3>
       <p>Receive early access to studio drops, craft stories, and slow-living notes.</p>
       <div class="newsletter-form">
         <input type="email" placeholder="your@email.com" id="newsEmail">
@@ -555,7 +555,7 @@ gtag('config', 'G-NTV0NLN2X5');
 <footer>
   <div class="container footer">
     <div class="footer-col">
-      <span class="brand-mini">VORA</span>
+      <span class="brand-mini">Salvis</span>
       <p>© 2025 — silent luxury atelier<br>Milan / Kyoto</p>
     </div>
     <div class="footer-links">
@@ -589,7 +589,7 @@ gtag('config', 'G-NTV0NLN2X5');
   const heroImageElem = document.querySelector('.hero-image img');
   // update hero image to something more elegant & branded feel
   heroImageElem.src = "https://picsum.photos/id/220/900/650"; // elegant ceramic hands
-  heroImageElem.alt = "VORA hero image: sculptural vessels in clay";
+  heroImageElem.alt = "Salvis hero image: sculptural vessels in clay";
 
   const philosophyImg = document.querySelector('.philosophy-img img');
   if(philosophyImg) philosophyImg.src = "https://picsum.photos/id/84/700/500";
@@ -619,7 +619,7 @@ gtag('config', 'G-NTV0NLN2X5');
   const toastMsg = document.getElementById('toast-msg');
 
   function showToast(message) {
-    toastMsg.textContent = message || '✨ Added to your VORA bag';
+    toastMsg.textContent = message || '✨ Added to your Salvis bag';
     toastMsg.style.opacity = '1';
     toastMsg.style.transform = 'translateX(-50%) scale(1)';
     setTimeout(() => {
@@ -635,7 +635,7 @@ gtag('config', 'G-NTV0NLN2X5');
   function addToCartHandler(productName) {
     cartCount++;
     updateCartUI();
-    showToast(`👜 ${productName} added — VORA edit`);
+    showToast(`👜 ${productName} added — Salvis edit`);
   }
 
   // event delegation for add-to-cart buttons
@@ -658,10 +658,10 @@ gtag('config', 'G-NTV0NLN2X5');
       e.preventDefault();
       const email = newsInput.value.trim();
       if(email && email.includes('@')) {
-        showToast(`📬 Thanks! You're now on the VORA list.`);
+        showToast(`📬 Thanks! You're now on the Salvis list.`);
         newsInput.value = '';
       } else {
-        showToast(`✧ Please enter a valid email to receive VORA journal.`);
+        showToast(`✧ Please enter a valid email to receive Salvis journal.`);
       }
     });
   }
@@ -683,9 +683,9 @@ gtag('config', 'G-NTV0NLN2X5');
   }
 
   // Additional unique brand identity: some dynamic page title detail 
-  document.title = "VORA | Silent luxury essentials";
+  document.title = "Salvis | Silent luxury essentials";
   // Small console note for unique branding
-  console.log("VORA — minimal objects, quiet radiance");
+  console.log("Salvis — minimal objects, quiet radiance");
 </script>
 
 <!-- Make sure all images are modern ecom visuals; also additional fix for product images diversity (picsum high quality) -->
